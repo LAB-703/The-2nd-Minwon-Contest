@@ -1,1 +1,1 @@
-$ git clone --mirror https://github.com/LAB-703/project.git
+$ git clone --mirror {https://github.com/LAB-703/project.git}
