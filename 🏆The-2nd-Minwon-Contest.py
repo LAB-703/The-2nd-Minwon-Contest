@@ -115,7 +115,7 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 # #page1#######################################################################################################
 
-st.markdown('<p align="center" style=" font-size: 140%;"><b>🚔 주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석</b></p>', unsafe_allow_html=True)
+st.markdown('<p align="center" style=" font-size: 140%;"><b>🚔 주정차 실시간 모니터링 시스템 구축 및<br> 교통순찰 최적경로분석</b></p>', unsafe_allow_html=True)
 st.text_input("sdf")
 st.button("dfs")
 
