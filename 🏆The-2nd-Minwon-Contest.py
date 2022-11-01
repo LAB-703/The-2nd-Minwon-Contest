@@ -19,8 +19,8 @@ from googleapiclient import discovery
 
 
 #전체 페이지
-st.set_page_config(page_title="척척 석박의 기사 인용 도우미",          
-    page_icon="👀",
+st.set_page_config(page_title="주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석",          
+    page_icon="🚔",
     layout="wide",
     initial_sidebar_state="auto",
     menu_items={
