@@ -1,8 +1,15 @@
 [theme]
-primaryColor="#C0504D"
-secondaryBackgroundColor="#FCF9F6"
+primaryColor="#153462"
+secondaryBackgroundColor="#F6F6C9"
 textColor="#000000"
 font="Pretendard JP Variable"
+
+
+#살구색+검붉은색
+#primaryColor="#C0504D"
+#secondaryBackgroundColor="#FCF9F6"
+#textColor="#000000"
+#font="Pretendard JP Variable"
 
 #연두+진노랑
 #[theme]
