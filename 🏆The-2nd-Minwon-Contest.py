@@ -116,6 +116,6 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 # #page1#######################################################################################################
 
 st.markdown('<p align="center" style=" font-size: 140%;"><b>👀 척척 석박들을 위한 기사 인용 도우미</b></p>', unsafe_allow_html=True)
-
+st.text_input("sdf")
 
 
