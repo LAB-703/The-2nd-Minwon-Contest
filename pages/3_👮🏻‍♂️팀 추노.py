@@ -62,28 +62,27 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
 
-st.markdown('<p align="left" style="font-family:나눔고딕 ExtraBold; color:black; font-size: 30px;">0️⃣ 팀 💪굳건히❓</p>', unsafe_allow_html=True)
-st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">장애인이 <b>굳건히</b> 자립적인 생활을 도모할 수 있도록 <b>국</b>민 <b>권</b>익 <b>위</b>원회에 지원한 팀 💪굳건히입니다.</p>', unsafe_allow_html=True)
+st.header('팀👮🏻‍♂️ 추노❓</p>')
+st.write('불법주정차 현상을 개선하기 위해 모인 팀👮🏻‍♂️ 추노입니다.')
 st.markdown(' ')
 st.markdown('---------------------------------------------------- ')
-st.markdown('<p align="left" style="font-family:나눔고딕 ExtraBold; color:black; font-size: 30px;">팀원 소개</p>', unsafe_allow_html=True)
+st.subheader('팀원 소개')
 
 # 페이지 레이아웃 3갈래
 #팀원 소개
 col1, col2, col3 = st.columns(3)
 with col1:
  #   st.image("박지영.jpg", width=100)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀장 : 이정민</p>', unsafe_allow_html=True)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 치안대학원 범죄학과 석사과정</p>', unsafe_allow_html=True)
-
+    st.write('팀장 : 이정민')
+    st.write('경찰대학 치안대학원 범죄학과 석사과정')
+    
 with col2:
  #   st.image("증명사진_이정민.jpg", width=100)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀원 : 이수연</p>', unsafe_allow_html=True)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 법학과 3학년</p>', unsafe_allow_html=True)
-
+    st.write('팀원 : 이수연')
+    st.write('경찰대학 법학과 3학년')
 with col3:
  #   st.image("https://github.com/LAB-703/LAB-703/blob/main/%EB%B0%95%EC%98%81%EB%B9%88.jpg?raw=true", width=100)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀원 : 김민정</p>', unsafe_allow_html=True)
-    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 법학과 4학년</p>', unsafe_allow_html=True)
-st.markdown('---------------------------------------------------- ')   
-st.markdown(' ')
+    st.write('팀원 : 김민정')
+    st.write('경찰대학 법학과 4학년')
+    st.markdown('---------------------------------------------------- ')   
+    st.markdown(' ')
