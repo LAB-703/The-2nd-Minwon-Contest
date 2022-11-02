@@ -73,7 +73,6 @@ col1, col2, col3 = st.columns(3)
 with col1:
  #   st.image("박지영.jpg", width=100)
     st.write('팀장 : 이정민')
-    st.write('경찰대학 치안대학원 범죄학과 석사과정')
     st.markdown('경찰대학 치안대학원<br> 범죄학과 석사과정', unsafe_allow_html=True)
     
 with col2:
