@@ -64,7 +64,7 @@ code {
 #root > div:nth-child(1) > div > div > a {
     visibility:hidden;
 }    
-    
+     
     
 div.stButton > button:first-child {
 font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
