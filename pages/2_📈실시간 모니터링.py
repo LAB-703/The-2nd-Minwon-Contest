@@ -14,7 +14,18 @@ from googleapiclient import discovery
 
 with open( "style.css" ) as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
-    
+
+st.set_page_config(page_title="주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석",          
+    page_icon="🚔",
+    layout="wide",
+    initial_sidebar_state="auto",
+    menu_items={
+        'Get Help': 'https://github.com/LAB-703',
+        'Report a bug': "https://github.com/LAB-703",
+        'About': '''SPDX-FileCopyrightText: © 2022 LAB-703 SPDX-License-Identifier: MIT'''
+    }
+)
+
 hide_menu='''
 <style>
 #MainMenu {
