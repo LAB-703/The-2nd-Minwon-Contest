@@ -58,25 +58,36 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto,
 }
 </style>
 '''
-
 st.markdown(hide_menu, unsafe_allow_html=True)
 
-st.markdown('<p align="left" style=" font-size: 140%;"><b>👩🏻‍💻 개발자</b></p>', unsafe_allow_html=True)
-col1,col2,col3=st.columns(3)
-with col1 :
-    st.markdown('<a href="http://m.site.naver.com/0Z7nr"><img src="https://qrcodethumb-phinf.pstatic.net/20220702_173/1656698540984dDVVY_PNG/0Z7nr.png"/></a>', unsafe_allow_html=True)
-with col2 :
-    st.markdown('''<p align="left" style="font-size: 90%;"> <br> ☕️ 개발자에게 커피 한잔은 큰 힘이 됩니다<br><br>
-                    🎭 후원은 익명으로 가능합니다<br> <br>
-                    👉 QR코드를 스캔하거나 클릭시 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Toss-logo.svg/800px-Toss-logo.svg.png" height=13px>로 연결됩니다<br> </p>''', unsafe_allow_html=True)
-with col3 :
-    st.markdown('<p align="left" style=" font-size: 140%;"><b>📆 개발 기록</b></p>', unsafe_allow_html=True)
-    st.markdown('<code>📌 기능 추가</code> <code>🐞 버그 수정</code>', unsafe_allow_html=True)
-    beta1_0=st.expander("1️⃣ 2022. 06. 28. beta 1.0 배포")
-    beta1_0.markdown('''<p align="left" style="font-size: 70%; text-indent : 20px;"> 📌 네이버/다음 뉴스 APA, CHICAGO 스타일 인용 기능 추가</p>''', unsafe_allow_html=True)
-    beta2_0=st.expander("2️⃣ 2022. 07. 05. beta 2.0 배포")
-    beta2_0.markdown('''<p align="left" style="font-size: 70%; text-indent : 20px;"> 🐞 최종검색일 타임존 UTC → KST 수정 </p>''', unsafe_allow_html=True)
-    beta2_0.markdown('''<p align="left" style="font-size: 70%; text-indent : 20px;"> 📌 학술지 페이지 오픈 <code>new!</code> 새로운 학술지 추가에 동참해주세요! </p>''', unsafe_allow_html=True)
-    beta2_0.markdown('''<p align="left" style="font-size: 70%; text-indent : 20px;"> 📌 개발자 커피 후원 기능 추가 </p>''', unsafe_allow_html=True)
+################################# 팀 소개#############################################
+if select_event == '0️⃣ 팀 소개':
+ 
+    st.markdown('<p align="left" style="font-family:나눔고딕 ExtraBold; color:black; font-size: 30px;">0️⃣ 팀 💪굳건히❓</p>', unsafe_allow_html=True)
+    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">장애인이 <b>굳건히</b> 자립적인 생활을 도모할 수 있도록 <b>국</b>민 <b>권</b>익 <b>위</b>원회에 지원한 팀 💪굳건히입니다.</p>', unsafe_allow_html=True)
+    st.markdown(' ')
+    st.markdown('---------------------------------------------------- ')
+    st.markdown('<p align="left" style="font-family:나눔고딕 ExtraBold; color:black; font-size: 30px;">팀원 소개</p>', unsafe_allow_html=True)
+    
+    # 페이지 레이아웃 3갈래
+    #팀원 소개
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("박지영.jpg", width=100)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀장 : 이정민</p>', unsafe_allow_html=True)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 치안대학원 범죄학과 석사과정</p>', unsafe_allow_html=True)
 
-    st.markdown("---")
+    with col2:
+        st.image("증명사진_이정민.jpg", width=100)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀원 : 이수연</p>', unsafe_allow_html=True)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 법학과 3학년</p>', unsafe_allow_html=True)
+
+    with col3:
+        st.image("https://github.com/LAB-703/LAB-703/blob/main/%EB%B0%95%EC%98%81%EB%B9%88.jpg?raw=true", width=100)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">팀원 : 김민정</p>', unsafe_allow_html=True)
+        st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">경찰대학 법학과 4학년</p>', unsafe_allow_html=True)
+    st.markdown('---------------------------------------------------- ')   
+    st.markdown(' ')
+    st.markdown('<p align="left" style="font-family:나눔고딕; color:black; font-size: 15px;">※ 팀원 2명은 행정안전부와 한국지능정보사회진흥원에서 실시 중인 ‘공공빅데이터 분석 청년인재 양성사업’을 통해 국립재활원에 파견된 인턴연구원임</p>', unsafe_allow_html=True)
+    
+
