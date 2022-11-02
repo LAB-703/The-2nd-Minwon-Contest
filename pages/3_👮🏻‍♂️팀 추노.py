@@ -62,7 +62,7 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
 st.markdown('<p align="center" style=" font-size: 140%;"><b>팀👮🏻‍♂️ 추노❓</b></p>', unsafe_allow_html=True)
-st.image('경찰대학3.jpg')
+st.image('6646b03769d1f51f1786ccf8134c574ff47211c032026386c579aef9770d15982edb58fdf09ba9fb206ba6b28152a3c6625ac869c22a898d61c8e8a46f21a76199cb3814e6dc7292e9f2918520e0b27db918e6b97016618d3e34219efeaff723.jpg')
 st.write('불법주정차 현상을 개선하기 위해 모인 팀👮🏻‍♂️ 추노입니다.')
 st.markdown(' ')
 st.markdown('---------------------------------------------------- ')
