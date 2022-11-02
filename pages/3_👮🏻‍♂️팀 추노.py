@@ -61,8 +61,7 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto,
 st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
-
-st.header('팀👮🏻‍♂️ 추노❓</p>')
+ st.markdown('<p align="center" style=" font-size: 140%;"><b>팀👮🏻‍♂️ 추노❓</b></p>', unsafe_allow_html=True)
 st.write('불법주정차 현상을 개선하기 위해 모인 팀👮🏻‍♂️ 추노입니다.')
 st.markdown(' ')
 st.markdown('---------------------------------------------------- ')
@@ -75,6 +74,7 @@ with col1:
  #   st.image("박지영.jpg", width=100)
     st.write('팀장 : 이정민')
     st.write('경찰대학 치안대학원 범죄학과 석사과정')
+    st.markdown('경찰대학 치안대학원<br> 범죄학과 석사과정', unsafe_allow_html=True)
     
 with col2:
  #   st.image("증명사진_이정민.jpg", width=100)
