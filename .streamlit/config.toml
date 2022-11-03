@@ -1,8 +1,14 @@
 [theme]
-primaryColor="#0C508B"
-secondaryBackgroundColor="#F0F4F3"
-textColor="#0C508B"
+primaryColor="#BEDAFA"
+secondaryBackgroundColor="#F8F7F2"
+textColor="#384B60"
 font="Pretendard JP Variable"
+
+
+#primaryColor="#0C508B"
+#secondaryBackgroundColor="#F0F4F3"
+#textColor="#0C508B"
+#font="Pretendard JP Variable"
 
 
 #살구색+검붉은색
