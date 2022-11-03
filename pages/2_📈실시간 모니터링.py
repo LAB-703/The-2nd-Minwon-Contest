@@ -1,16 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from urllib import parse
-import requests
 from datetime import datetime, timedelta
-from pytz import timezone
-import google_auth_httplib2
-import httplib2
 import pandas as pd
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import HttpRequest
-from googleapiclient import discovery
 
 st.set_page_config(page_title="주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석",          
     page_icon="🚔",
