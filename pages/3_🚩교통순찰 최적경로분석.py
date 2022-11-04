@@ -62,31 +62,3 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
 st.markdown('<p align="center" style=" font-size: 140%;"><b>팀👮🏻‍♂️ 추노❓</b></p>', unsafe_allow_html=True)
-st.image('포순이포돌이.jpg')
-st.write('불법주정차 현상을 개선하기 위해 모인 팀👮🏻‍♂️ 추노입니다.')
-st.markdown(' ')
-st.markdown('---------------------------------------------------- ')
-st.subheader('팀원 소개')
-
-# 페이지 레이아웃 3갈래
-#팀원 소개
-col1, col2, col3 = st.columns(3)
-with col1:
- #   st.image("박지영.jpg", width=100)
-    st.write('팀장 : 이정민')
-    st.markdown('경찰대학 치안대학원<br> 범죄학과 석사과정', unsafe_allow_html=True)
-    
-with col2:
- #   st.image("증명사진_이정민.jpg", width=100)
-    st.write('팀원 : 이수연')
-    st.write('경찰대학 법학과 3학년')
-with col3:
- #   st.image("https://github.com/LAB-703/LAB-703/blob/main/%EB%B0%95%EC%98%81%EB%B9%88.jpg?raw=true", width=100)
-    st.write('팀원 : 김민정')
-    st.write('경찰대학 법학과 4학년')
-    st.markdown('---------------------------------------------------- ')   
-    st.markdown(' ')
-    
-
-st.text_input("sdf")
-st.button("dfs")
