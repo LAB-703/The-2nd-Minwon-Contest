@@ -3,4 +3,3 @@ datetime
 timedelta
 pandas
 numpy
-AgGrid
