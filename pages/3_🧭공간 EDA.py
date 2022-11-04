@@ -106,6 +106,6 @@ st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></
 
 st.write("folium 껐다 켰다 체크박스")
 HtmlFile = open("서울시 자치구별 장애정도별 등록장애인 현황.html", 'r',encoding='utf-8')
-    source_code = HtmlFile.read() 
-    print(source_code)
-    components.html(source_code, height=450,  scrolling=False)
+source_code = HtmlFile.read() 
+print(source_code)
+components.html(source_code, height=450,  scrolling=False)
