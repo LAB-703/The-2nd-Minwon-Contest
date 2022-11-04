@@ -2,6 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from datetime import datetime, timedelta
 import pandas as pd
+from st_aggrid import AgGrid
 
 st.set_page_config(page_title="주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석",          
     page_icon="🚔",
@@ -108,7 +109,9 @@ st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></
 
 
 expander1 = st.expander("시군구 신고량 상위 10개")
-expander1.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949',index_col=0).style.highlight_max(axis=0), use_container_width=True)
+df=pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949',index_col=0)
+AgGrid(df)
+#expander1.dataframe(.style.highlight_max(axis=0), use_container_width=True)
 
 
 st.write("folium 껐다 켰다 체크박스")
