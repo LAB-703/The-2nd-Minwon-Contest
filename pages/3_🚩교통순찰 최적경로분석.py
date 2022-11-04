@@ -61,4 +61,4 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto,
 st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
-st.markdown('<p align="center" style=" font-size: 140%;"><b>팀👮🏻‍♂️ 추노❓</b></p>', unsafe_allow_html=True)
+st.markdown('<p align="center" style=" font-size: 140%;"><b>🚩교통순찰 최적경로분석</b></p>', unsafe_allow_html=True)
