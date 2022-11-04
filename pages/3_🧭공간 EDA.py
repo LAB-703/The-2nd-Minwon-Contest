@@ -108,7 +108,7 @@ st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></
 
 
 expander1 = st.expander("시군구 신고량 상위 10개")
-expander1.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'))
+expander1.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
 
 
 st.write("folium 껐다 켰다 체크박스")
