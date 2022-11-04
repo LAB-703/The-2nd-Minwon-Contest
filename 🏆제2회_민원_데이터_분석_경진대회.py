@@ -109,7 +109,6 @@ st.button("dfs")
 st.markdown('<p align="center" style=" font-size: 140%;"><b>팀👮🏻‍♂️ 추노❓</b></p>', unsafe_allow_html=True)
 st.image('포순이포돌이.jpg')
 st.write('불법주정차 현상을 개선하기 위해 모인 팀👮🏻‍♂️ 추노입니다.')
-st.markdown(' ')
 st.markdown('---------------------------------------------------- ')
 st.subheader('팀원 소개')
 
@@ -129,6 +128,5 @@ with col3:
  #   st.image("https://github.com/LAB-703/LAB-703/blob/main/%EB%B0%95%EC%98%81%EB%B9%88.jpg?raw=true", width=100)
     st.write('팀원 : 김민정')
     st.write('경찰대학 법학과 4학년')
-    st.markdown('---------------------------------------------------- ')   
-    st.markdown(' ')
+st.markdown('---------------------------------------------------- ')   
 
