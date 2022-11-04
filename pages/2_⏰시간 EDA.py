@@ -105,4 +105,7 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 st.markdown('<p align="center" style=" font-size: 140%;"><b>⏰시간 EDA</b></p>', unsafe_allow_html=True)
 
 st.write("대충 plotly 시계열 애니메이션 넣기")
+st.image("시계열 애니메이션.gif")
+
+
 
