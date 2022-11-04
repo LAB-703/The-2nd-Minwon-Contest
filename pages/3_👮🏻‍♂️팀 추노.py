@@ -86,3 +86,7 @@ with col3:
     st.write('경찰대학 법학과 4학년')
     st.markdown('---------------------------------------------------- ')   
     st.markdown(' ')
+    
+
+st.text_input("sdf")
+st.button("dfs")
