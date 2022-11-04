@@ -102,7 +102,17 @@ div.streamlit-expanderContent.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bt.st-br.st
 st.markdown(hide_menu, unsafe_allow_html=True)
 
 
+
+
 st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></p>', unsafe_allow_html=True)
+
+
+
+container1 = st.container("시군구 신고량 상위 10개")
+container1.table(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=0))
+container2 = st.container("시군구 면적당 신고량 상위 10개")
+container2.table(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=1))
+
 
 st.write("folium 껐다 켰다 체크박스")
 HtmlFile = open("서울시 자치구별 장애정도별 등록장애인 현황.html", 'r',encoding='utf-8')
