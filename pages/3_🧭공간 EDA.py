@@ -108,9 +108,9 @@ st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></
 
 
 expander1 = st.expander("시군구 신고량 상위 10개")
-expander1.table(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=0))
+expander1.dataframe(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=0))
 expander2 = st.expander("시군구 면적당 신고량 상위 10개")
-expander2.table(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=1))
+expander2.dataframe(pd.read_excel("시군구_신고량, 면적당 신고량 파일.xlsx", sheet_name=1))
 
 
 st.write("folium 껐다 켰다 체크박스")
