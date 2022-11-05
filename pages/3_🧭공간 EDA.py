@@ -115,6 +115,11 @@ m = folium.plugins.DualMap(location=[35.8, 127.6], tiles="OpenStreetMap", zoom_s
 
 #지도에 색 적용 및 데이터 연결
 
+
+SIGUNGU_FINAL=gpd.read_file('시군구별 신고량+공간정보(시도, 시군구)2.geojson',encoding='utf-8')
+SIGUNGU_FINAL
+
+
 text_19="신고량"
 text_20="면적당 신고량"
 text_lat, text_lng=34,130
