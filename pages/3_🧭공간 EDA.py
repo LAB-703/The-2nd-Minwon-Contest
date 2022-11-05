@@ -112,10 +112,12 @@ print(source_code)
 components.html(source_code, height=450,  scrolling=False)
 
 
-expander1 = st.expander("시도 신고량")
+expander1 = st.expander("시도 신고량(신고량 순)")
 expander1.dataframe(pd.read_csv("시도_신고량순.csv",encoding='cp949',index_col=0), use_container_width=True)
+expander1.write("*면적당 신고량=신고량/면적")
 
-expander2 = st.expander("시군구 신고량")
+expander2 = st.expander("시군구 신고량(신고량 순)")
 expander2.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
+expander2.write("*면적당 신고량=신고량/면적")
 
 
