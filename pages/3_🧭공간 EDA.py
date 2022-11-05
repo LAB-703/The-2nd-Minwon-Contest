@@ -106,13 +106,16 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></p>', unsafe_allow_html=True)
 
-
-expander1 = st.expander("시군구 신고량 상위 10개")
-expander1.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
-
-
-st.write("folium 껐다 켰다 체크박스")
 HtmlFile = open("서울시 자치구별 장애정도별 등록장애인 현황.html", 'r',encoding='utf-8')
 source_code = HtmlFile.read() 
 print(source_code)
 components.html(source_code, height=450,  scrolling=False)
+
+
+expander1 = st.expander("시도 신고량")
+expander1.dataframe(pd.read_csv("시도_신고량.csv",encoding='cp949'), use_container_width=True)
+
+expander2 = st.expander("시군구 신고량")
+expander2.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
+
+
