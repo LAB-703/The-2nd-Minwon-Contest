@@ -113,7 +113,7 @@ components.html(source_code, height=450,  scrolling=False)
 
 
 expander1 = st.expander("시도 신고량")
-expander1.dataframe(pd.read_csv("시도_신고량.csv",encoding='cp949'), use_container_width=True)
+expander1.dataframe(pd.read_csv("시도_신고량순.csv",encoding='cp949'), use_container_width=True)
 
 expander2 = st.expander("시군구 신고량")
 expander2.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
