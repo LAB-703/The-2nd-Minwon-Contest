@@ -129,4 +129,21 @@ st.image("시군구/서울특별시.png")
 # expander3.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
 # expander3.write("*면적당 신고량=신고량/면적")
 
+st.image("시군구/부산광역시.png")
+st.image("시군구/대구광역시.png")
+st.image("시군구/인천광역시.png")
+st.image("시군구/광주광역시.png")
+st.image("시군구/대전광역시.png")
+st.image("시군구/울산광역시.png")
+st.image("시군구/경기도.png")
+st.image("시군구/강원도.png")
+st.image("시군구/충청남도.png")
+st.image("시군구/충청북도.png")
+st.image("시군구/경상남도.png")
+st.image("시군구/경상북도.png")
+st.image("시군구/전라남도.png")
+st.image("시군구/전라북도.png")
+
+
+
 
