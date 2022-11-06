@@ -3,9 +3,6 @@ import streamlit.components.v1 as components
 from datetime import datetime, timedelta
 import pandas as pd
 
-import folium
-import folium.plugins as plug
-from streamlit_folium import folium_static
 
 st.set_page_config(page_title="주정차 실시간 모니터링 시스템 구축 및 교통순찰 최적경로분석",          
     page_icon="🚔",
