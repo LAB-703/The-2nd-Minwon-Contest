@@ -107,45 +107,7 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 st.markdown('<p align="center" style=" font-size: 140%;"><b>🧭공간 EDA</b></p>', unsafe_allow_html=True)
 
-from folium.features import DivIcon
-m = folium.plugins.DualMap(location=[35.8, 127.6], tiles="OpenStreetMap", zoom_start=8)
 
-#지도에 색 적용 및 데이터 연결
-
-
-SIGUNGU_FINAL=gpd.read_file('시군구별 신고량+공간정보(시도, 시군구)2.geojson',encoding='utf-8')
-SIGUNGU_FINAL
-
-
-text_19="신고량"
-text_20="면적당 신고량"
-text_lat, text_lng=34,130
-
-choropleth =  folium.Choropleth(
-    geo_data=SIGUNGU_FINAL,
-    name='people',
-    data=SIGUNGU_FINAL,
-    columns=('시군구', '신고량'),
-    key_on='feature.properties.SIDO/SIGUNGU',
-    fill_color='RdYlGn',
-    fill_opacity=0.7,
-    line_opacity=0.5,
-    legend_name='people count index').add_to(m.m1)
-folium.map.Marker( [text_lat + 0.5, text_lng - 1.6],icon=DivIcon(icon_size=(150,36),icon_anchor=(0,0), html= text_19)).add_to(m.m1)
-
-
-plugins.Fullscreen(position='topright',
-                   title='Click to Expand',
-                   title_cancel='Click to Exit',
-                   force_separate_button=True).add_to(m)
-
-plugins.MousePosition().add_to(m)
-
-choropleth.geojson.add_child(folium.features.GeoJsonTooltip(['SIGUNGU_NM'], labels=False))
-title_html = '<h3 align="center" style="font-size:20px"><b>people count index </b></h3>'
-m.get_root().html.add_child(folium.Element(title_html))
-folium.LayerControl().add_to(m)
-m
 
 # HtmlFile = open("서울시 자치구별 장애정도별 등록장애인 현황.html", 'r',encoding='utf-8')
 # source_code = HtmlFile.read() 
