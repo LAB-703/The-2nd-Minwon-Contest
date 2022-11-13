@@ -104,4 +104,9 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 st.markdown('<p align="center" style=" font-size: 140%;"><b>📍시범구역 선정</b></p>', unsafe_allow_html=True)
 
-st.write("📍시범구역 선정")
+st.write("1. 시군구 신고량 1위, 경기도 성남시")
+st.image("성남시png.png")
+
+st.write("2. 시군구 면적당 신고량 1위, 대구광역시 중구")
+st.image("대구 중구png.png")
+
