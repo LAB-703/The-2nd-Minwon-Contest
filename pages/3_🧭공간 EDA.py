@@ -124,11 +124,12 @@ expander2 = st.expander("시군구 면적당 신고량(면적당 신고량 순)"
 expander2.dataframe(pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949'), use_container_width=True)
 expander2.write("*면적당 신고량=신고량/면적")
 
-st.image("시군구/서울특별시.png")
 df=pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949')
-# expander3 = st.expander("시군구 면적당 신고량(면적당 신고량 순)")
-# expander3.dataframe(df, use_container_width=True)
-# expander3.write("*면적당 신고량=신고량/면적")
+
+expander31 = st.expander("서울특별시")
+expander31.image("시군구/서울특별시.png")
+expander31.image("시군구/서울특별시(면적당).png")
+expander31.dataframe(df[df['시도']=="서울특별시"].sort_values(['신고량'],ascending=False), use_container_width=True)
 
 expander3 = st.expander("부산광역시")
 expander3.image("시군구/부산광역시.png")
