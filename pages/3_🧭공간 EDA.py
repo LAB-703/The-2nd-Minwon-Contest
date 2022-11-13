@@ -133,12 +133,12 @@ df=pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949')
 expander3 = st.expander("부산광역시")
 expander3.image("시군구/부산광역시.png")
 expander3.image("시군구/부산광역시(면적당).png")
-expander3.dataframe(df[df['시도']=="부산광역시"].sort_values(['신고량'],asc=False), use_container_width=True)
+expander3.dataframe(df[df['시도']=="부산광역시"].sort_values(['신고량'],ascending=False), use_container_width=True)
 
 expander4 = st.expander("대구광역시")
 expander4.image("시군구/대구광역시.png")
 expander4.image("시군구/대구광역시(면적당).png")
-expander4.dataframe(df[df['시도']=="대구광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander4.dataframe(df[df['시도']=="대구광역시"].sort_values('신고량',ascending=False), use_container_width=True)
 
 
 expander5 = st.expander("인천광역시")
