@@ -132,7 +132,7 @@ df=pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949')
 
 expander3 = st.expander("부산광역시")
 expander3.image("시군구/부산광역시.png")
-expander3.dataframe(df[df['시도']=="부산광역시"].sort_values(''), use_container_width=True)
+expander3.dataframe(df[df['시도']=="부산광역시"].sort_values('신'), use_container_width=True)
 st.image("시군구/대구광역시.png")
 st.image("시군구/인천광역시.png")
 st.image("시군구/광주광역시.png")
