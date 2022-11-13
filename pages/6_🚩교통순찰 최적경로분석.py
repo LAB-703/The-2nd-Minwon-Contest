@@ -67,7 +67,7 @@ st.subheader('오전 7시~오전 8시')
 st.image("최적경로/7to8.png")
 
 st.subheader('오전 9시~오전 10시')
-st.image("최적경로/9새10.png")
+st.image("최적경로/9to10.png")
 
 st.subheader('오전 11시~오후 12시')
 st.image("최적경로/11to12.png")
