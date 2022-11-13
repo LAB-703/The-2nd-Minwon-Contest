@@ -62,6 +62,31 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 
 ################################# 팀 소개#############################################
 st.markdown('<p align="center" style=" font-size: 140%;"><b>🚩교통순찰 최적경로분석</b></p>', unsafe_allow_html=True)
-st.write("OSMnx")
 
+st.subheader('오전 7시~오전 8시')
+st.image("최적경로/7to8.png")
+
+st.subheader('오전 9시~오전 10시')
+st.image("최적경로/9새10.png")
+
+st.subheader('오전 11시~오후 12시')
+st.image("최적경로/11to12.png")
+
+st.subheader('오후 1시~오후 2시')
+st.image("최적경로/1to2.png")
+
+st.subheader('오후 1시~오후 2시')
+st.image("최적경로/1to2.png")
+
+st.subheader('오후 3시~오후 4시')
+st.image("최적경로/3to4.png")
+
+st.subheader('오후 5시~오후 6시')
+st.image("최적경로/5to6.png")
+
+st.subheader('오후 7시~오후 8시')
+st.image("최적경로/19to20.png")
+
+st.subheader('오후 9시~오후 10시')
+st.image("최적경로/21to22.png")
 
