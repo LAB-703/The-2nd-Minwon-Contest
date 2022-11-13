@@ -133,7 +133,7 @@ df=pd.read_csv("시군구_면적별신고량순(최종).csv",encoding='cp949')
 expander3 = st.expander("부산광역시")
 expander3.image("시군구/부산광역시.png")
 expander3.image("시군구/부산광역시(면적당).png")
-expander3.dataframe(df[df['시도']=="부산광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander3.dataframe(df[df['시도']=="부산광역시"].sort_values(['신고량'],asc=False), use_container_width=True)
 
 expander4 = st.expander("대구광역시")
 expander4.image("시군구/대구광역시.png")
@@ -144,63 +144,63 @@ expander4.dataframe(df[df['시도']=="대구광역시"].sort_values('신고량',
 expander5 = st.expander("인천광역시")
 expander5.image("시군구/인천광역시.png")
 expander5.image("시군구/인천광역시(면적당).png")
-expander5.dataframe(df[df['시도']=="인천광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander5.dataframe(df[df['시도']=="인천광역시"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander6 = st.expander("광주광역시")
 expander6.image("시군구/광주광역시.png")
 expander6.image("시군구/광주광역시(면적당).png")
-expander6.dataframe(df[df['시도']=="광주광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander6.dataframe(df[df['시도']=="광주광역시"].sort_values('신고량',ascending=False), use_container_width=True)
 
 
 expander7 = st.expander("대전광역시")
 expander7.image("시군구/대전광역시.png")
 expander7.image("시군구/대전광역시(면적당).png")
-expander7.dataframe(df[df['시도']=="대전광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander7.dataframe(df[df['시도']=="대전광역시"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander8 = st.expander("울산광역시")
 expander8.image("시군구/울산광역시.png")
 expander8.image("시군구/울산광역시(면적당).png")
-expander8.dataframe(df[df['시도']=="울산광역시"].sort_values('신고량',asc=False), use_container_width=True)
+expander8.dataframe(df[df['시도']=="울산광역시"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander9 = st.expander("경기도")
 expander9.image("시군구/경기도.png")
 expander9.image("시군구/경기도(면적당).png")
-expander9.dataframe(df[df['시도']=="경기도"].sort_values('신고량',asc=False), use_container_width=True)
+expander9.dataframe(df[df['시도']=="경기도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander10 = st.expander("강원도")
 expander10.image("시군구/강원도.png")
 expander10.image("시군구/강원도(면적당).png")
-expander10.dataframe(df[df['시도']=="강원도"].sort_values('신고량',asc=False), use_container_width=True)
+expander10.dataframe(df[df['시도']=="강원도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander11 = st.expander("충청남도")
 expander11.image("시군구/충청남도.png")
 expander11.image("시군구/충청남도(면적당).png")
-expander11.dataframe(df[df['시도']=="충청남도"].sort_values('신고량',asc=False), use_container_width=True)
+expander11.dataframe(df[df['시도']=="충청남도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander12 = st.expander("충청북도")
 expander12.image("시군구/충청북도.png")
 expander12.image("시군구/충청북도(면적당).png")
-expander12.dataframe(df[df['시도']=="충청북도"].sort_values('신고량',asc=False), use_container_width=True)
+expander12.dataframe(df[df['시도']=="충청북도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander13 = st.expander("경상남도")
 expander13.image("시군구/경상남도.png")
 expander13.image("시군구/경상남도(면적당).png")
-expander13.dataframe(df[df['시도']=="경상남도"].sort_values('신고량',asc=False), use_container_width=True)
+expander13.dataframe(df[df['시도']=="경상남도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander14 = st.expander("경상북도")
 expander14.image("시군구/경상북도.png")
 expander14.image("시군구/경상북도(면적당).png")
-expander14.dataframe(df[df['시도']=="경상북도"].sort_values('신고량',asc=False), use_container_width=True)
+expander14.dataframe(df[df['시도']=="경상북도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander15 = st.expander("전라남도")
 expander15.image("시군구/전라남도.png")
 expander15.image("시군구/전라남도(면적당).png")
-expander15.dataframe(df[df['시도']=="전라남도"].sort_values('신고량',asc=False), use_container_width=True)
+expander15.dataframe(df[df['시도']=="전라남도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 expander16 = st.expander("전라북도")
 expander16.image("시군구/전라북도.png")
 expander16.image("시군구/전라북도(면적당).png")
-expander16.dataframe(df[df['시도']=="전라북도"].sort_values('신고량',asc=False), use_container_width=True)
+expander16.dataframe(df[df['시도']=="전라북도"].sort_values('신고량',ascending=False), use_container_width=True)
 
 
 
